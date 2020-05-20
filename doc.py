@@ -1,6 +1,7 @@
 import MeCab
 from gensim.models.doc2vec import Doc2Vec
 from gensim.models.doc2vec import TaggedDocument
+import livedoor
 
 def get_words(text):
     mt = MeCab.Tagger("mecabrc")
@@ -20,4 +21,8 @@ def train_doc2vec(texts):
     m = Doc2Vec(documents=trainings, dm=1, vector_size=300, window=15, alpha=0.025, min_alpha=0.025, min_count=1, sample=1e-6)
     m.save("model/doc2vec.model")
 
-train_doc2vec(["こんにちは。僕の名前は吉開拓人です。", "安倍さん、いつもありがとう。あまり自分を追い詰めないで。"])
+def train_doc2vec_livedoor():
+    train_doc2vec(livedoor.load_datasets())
+
+#train_doc2vec(["こんにちは。僕の名前は吉開拓人です。", "安倍さん、いつもありがとう。あまり自分を追い詰めないで。"])
+train_doc2vec_livedoor()
