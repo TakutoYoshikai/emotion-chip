@@ -1,2 +1,3 @@
 gensim
 mecab-python3
+sklearn
