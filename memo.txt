@@ -3,3 +3,26 @@ https://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/P17-3.pdf
 
 AIの感情について
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwj70aOMysTpAhXIE4gKHW0QB9MQFjAAegQIAxAB&url=https%3A%2F%2Fjsai.ixsq.nii.ac.jp%2Fej%2F%3Faction%3Drepository_uri%26item_id%3D10483%26file_id%3D22%26file_no%3D1&usg=AOvVaw1JJN67AX6qxsk_FTmnWL4A
+
+基本情動説→人間の感情には基本的な6つの要素が存在している。
+だが、文化差が大きい。
+
+コアアフェクトは、脳の生成モデルによる予測に基づいた身体信号のベイズ的推論により形成されると考えられている。
+
+基礎心理学
+http://neko-to-hirune.blog.jp/archives/51953603.html
+
+感情次元説
+快-不快 覚醒-睡眠の軸から成る
+
+どの感情を基本感情とみなすのかは，研究者によって異なる
+
+エクマン理論基本的な6つの感情（怒り・嫌悪・恐怖・喜び・悲しみ・驚き）を表す普遍的な表情があるという理論
+https://academist-cf.com/journal/?p=10185
+日本人にはあまり当てはまらない
+
+ひとの感情はいくつあるのか　27種類説
+https://tabi-labo.com/284103/emotion-map
+
+持論
+現在の感情=記憶*刺激*生理的減少*直前の感情
