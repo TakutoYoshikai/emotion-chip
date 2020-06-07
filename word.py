@@ -1,6 +1,9 @@
 from gensim.models import Word2Vec
 import MeCab
 import livedoor
+import logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
 
 def train(sentences):
     num_features = 200
