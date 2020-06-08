@@ -3,6 +3,8 @@ from gensim.models.doc2vec import Doc2Vec
 from gensim.models.doc2vec import TaggedDocument
 import livedoor
 import subprocess
+import logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 cmd='echo `mecab-config --dicdir`"/mecab-ipadic-neologd"'
 path = (subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True).communicate()[0]).decode('utf-8')
