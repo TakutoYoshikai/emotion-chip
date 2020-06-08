@@ -2,9 +2,12 @@ import MeCab
 from gensim.models.doc2vec import Doc2Vec
 from gensim.models.doc2vec import TaggedDocument
 import livedoor
+import subprocess
 
+cmd='echo `mecab-config --dicdir`"/mecab-ipadic-neologd"'
+path = (subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True).communicate()[0]).decode('utf-8')
+mt=MeCab.Tagger("-d {0}".format(path))
 def get_words(text):
-    mt = MeCab.Tagger("mecabrc")
     node = mt.parseToNode(text)
     words = []
     while node:
